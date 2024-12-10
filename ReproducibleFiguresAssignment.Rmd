@@ -309,3 +309,5 @@ Looking at our third hypothesis first, the ANCOVA showed that for the interactio
 There is no interaction between culmen length and species but both can explain the variation in culmen depth independently.
 
 
+
+
