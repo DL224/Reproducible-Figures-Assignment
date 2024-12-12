@@ -194,10 +194,6 @@ culmen_ancova_plot
 ```
 
 
-### Results and Discussion:
-
-Looking at our third hypothesis first, the ANCOVA showed that for the interaction between species and culmen depth the p-value=0.62 which is not significant as 0.62>0.05 so relationship between culmen length and depth is not dependent on the species. This means that the slopes are the same for the interaction between culmen length and depth across the three species. this means we can look at the effect of culmen length and species independently on culmen depth. both culmen length and species have a p-value of <2e-16 meaning that both have a significant effect on culmen depth and can be responsible for explianing the variation in culmen depth.
-
 
 ### Conclusion:
 
