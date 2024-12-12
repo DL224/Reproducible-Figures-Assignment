@@ -3,4 +3,4 @@ For this you will need to download the following files using the the command 'gi
 
 git clone https://github.com/DL224/Reproducible-Figures-Assignment.git
 
-if you type this in to terminal of your project it should download all the files necessary
+if you type this in to terminal of your project it should download all the files necessary. The code for answering question three is in the ReproducibleFiguresAssignmentQuestion2.Rmd file
