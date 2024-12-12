@@ -1,5 +1,5 @@
 ---
-title: "ReproducibleFiguresAssignmentQuestion2"
+title: "Reproducible Figures Assignment Question 2"
 output: html_document
 date: "2024-12-11"
 ---
@@ -16,7 +16,7 @@ In this data pipeline I compared the culmen length and culmen depth for the thre
 
 
 
-```{r, echo= FALSE}
+```{r, message= FALSE}
 
 #loading the packages 
 
@@ -115,7 +115,8 @@ culmen_exploratory_plot <- ggplot(
   geom_point( size = 2, aes(colour=species), alpha=1) +
   theme_bw() +
    theme(axis.title.x = element_text(size = 8),  
-        axis.title.y = element_text(size = 8)) +
+        axis.title.y = element_text(size = 8),
+        title= element_text(size=11)) +
   labs(x= "Culmen Length (mm)", y= "Culmen Depth (mm)", title= "An Exploratory plot of Culmen Length vs Culmen Depth for 3 species of Penguins", colour = "Species") +
   scale_color_manual(values = species_colours) 
   
@@ -183,8 +184,9 @@ culmen_ancova_plot <- ggplot(
   geom_smooth(method="lm", se=TRUE, aes(colour=species)) +
   theme_bw() +
    theme(axis.title.x = element_text(size = 8),  
-        axis.title.y = element_text(size = 8)) +
-  labs(x= "Culmen Length (mm)", y= "Culmen Depth (mm)", title= "An Exploratory plot of Culmen Length vs Culmen Depth for 3 species of Penguins with linear regressions", colour = "Species") + 
+        axis.title.y = element_text(size = 8),
+        title= element_text(size=11)) +
+  labs(x= "Culmen Length (mm)", y= "Culmen Depth (mm)", title= " Culmen Length vs Culmen Depth for 3 species of Penguins with linear regressions", colour = "Species") + 
   scale_color_manual(values = species_colours) 
 
 culmen_ancova_plot
@@ -204,4 +206,6 @@ There is no interaction between culmen length and species, but both can explain 
 
 
 
+ 
+ 
 
